@@ -1,0 +1,129 @@
+/*------------DISPLAYS 481-768px------------------*/
+
+@media (min-width: 481px) and (max-width:768px) {
+    /*----------------HEADER MID---------------*/
+    .header {
+        height: 800px;
+    }
+    .header__top {
+        width: 100%;
+    }
+    .logo {
+        margin-left: 10px;
+        float: none;
+    }
+    /*------------------MAIN NAV---------------*/
+    .menu__main {
+        margin-top: 28px;
+        margin-left: 7px;
+        float: none;
+    }
+    /*-----------------------SLIDER-------------------*/
+    .header__bottom {
+        margin-top: -48px;
+    }
+    .slider {
+        max-width: 100%;
+    }
+    .slider__text {
+        padding: 103px 0 0 0;
+        max-width: 42%;
+    }
+    .slider__header {
+        font-size: 48px;
+    }
+    .slider__second-header {
+        max-height: 30px;
+        margin-top: 8px;
+        font-size: 24px;
+        overflow: hidden;
+    }
+    .slider__par {
+        height: 100px;
+        margin-top: 6px;
+        font-size: 16px;
+        line-height: 27px;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    .slider__img {
+        margin-left: 16.5%;
+    }
+    .slider__img img {
+        top: -22px;
+    }
+    .slider__nav--main {
+        padding: 438px 0 0 73.5%;
+    }
+    .slider__nav--main:before {
+        left: -2%;
+    }
+    .slider__nav--main:after {
+        right: -2%;
+    }
+    /*-----------------------MAIN----------------------*/
+    /*---------------------ABOUT--------------------*/
+    .about__header {
+        font-size: 24px;
+    }
+    .about__wrapper {
+        padding: 10% 0 0 9%;
+    }
+    .about__par {
+        max-height: 140px;
+        margin-top: 3px;
+    }
+    .about__link {
+        margin: 10px 21px 0 0;
+    }
+    .about__block:before {
+        top: 3px;
+        left: -45px;
+    }
+    /*----------------------REVIEWS-----------------*/
+    .reviews {
+        width: 41.5%;
+        margin: 13% 8% 0 4.5%;
+    }
+    .reviews:after {
+        display: none;
+    }
+    .reviews__header {
+        max-width: 85px;
+        max-height: 42px;
+        font-size: 24px;
+    }
+    .reviews__par {
+        max-height: 148px;
+        overflow: hidden;
+    }
+    .slider__nav--reviews {
+        padding: 266px 0 0 35%;
+    }
+    /*------------------BLOG-------------------*/
+    .blog__container {
+        margin-bottom: 13px;
+    }
+    .blog {
+        margin-top: 13%;
+    }
+    
+    /*-------------------LOGOS------------------*/
+    .brand-logo__list {
+        padding: 3.7% 0 3.7% 2%;
+    }
+    .brand-logo__item--3 .brand-logo__link {
+        margin-right: 7px;
+    }
+    /*-------------------FOOTER---------------------*/
+    .footer__сontainer--1,
+    .footer__container--2 {
+        padding-left: 1%;
+    }
+    .footer__container--2 {
+        height: 200px;
+    }
+    .copyright {
+        padding: 54px 14px 0 0;
+    }
+}

@@ -1,0 +1,226 @@
+/*------------------DISPLAYS 320px-----------------*/
+
+@media (max-width: 320px) {
+    .header {
+        height: 516px;
+    }
+    .header__top {
+        width: auto;
+    }
+    .logo {
+        width: 150px;
+        margin: 0 auto;
+        float: none;
+    }
+    .main_nav {
+        width: 245px;
+        margin: 7px auto 0;
+    }
+    .menu__main {
+        width: 245px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 5;
+    }
+    .menu__main:hover {
+        border: 1px solid #051116;
+        border-radius: 10px;
+        background-color: rgba(54, 41, 62, .9);
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    }
+    .menu__main:hover .menu__item {
+        display: block;
+    }
+    .menu__main .menu__item {
+        display: none;
+        padding: 0;
+    }
+    .menu__main .menu__item:hover {
+        border-bottom: 2px solid #edbfff;
+        background: rgba(32, 17, 42, .5);
+    }
+    .menu__main .menu__item--current {
+        display: block;
+        padding-top: 16px;
+    }
+    .menu__main .menu__link {
+        display: block;
+        height: 39px;
+        line-height: 39px;
+        text-align: center;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    }
+    .menu__main:hover .menu__link {
+        border-bottom: 1px solid #523e5a;
+    }
+    .menu__main:hover .menu__item:last-child .menu__link {
+        border-bottom: 0;
+    }
+    .menu__main .menu__item:hover .menu__link {
+        height: 39px;
+    }
+    .menu__main .menu__item:first-child:hover {
+        border-radius: 10px 10px 0 0;
+    }
+    .menu__main .menu__item:last-child:hover {
+        border-radius: 0 0 10px 10px;
+    }
+    /*--------------------SLIDER-------------------*/
+    .header__bottom {
+        margin-top: -41px;
+        background: none;
+    }
+    .slider {
+        max-width: 100%;
+    }
+    .slider__wrapper:before,
+    .slider__wrapper:after {
+        top: 101px;
+    }
+    .slider__text {
+        max-width: 268px;
+        max-height: 51px;
+        padding: 92px 0 0 20px;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    ;
+    }
+    .slider__header {
+        font-size: 36px;
+    }
+    .slider__second-header {
+        height: 30px;
+        margin-top: -5px;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .slider__par {
+        display: none;
+    }
+    .slider__img {
+        display: none;
+    }
+    .slider__nav--main {
+        padding: 228px 0 0 37%;
+    }
+    .header__bottom {
+        height: 245px;
+        margin-top: -36px;
+    }
+    .header {
+        height: 516px;
+    }
+    /*----------------------MAIN--------------------*/
+    /*---------------------ABOUT-------------------*/
+    .about {
+        height: 600px;
+    }
+    .about__wrapper {
+        padding: 71px 0 0 84px;
+    }
+    .about__block {
+        max-width: 96%;
+        margin-right: 0;
+        margin-bottom: 64px;
+        float: none;
+    }
+    .about__header {
+        font-size: 24px;
+    }
+    .about__par {
+        max-height: 73px;
+        margin-top: 4px;
+    }
+    /*-----------BLOG AND REVIEWS-----------*/
+    /*--------------------REVIEWS------------------*/
+    .blog-reviews {
+        height: 716px;
+    }
+    .reviews,
+    .blog {
+        float: none;
+    }
+    .reviews {
+        width: 80%;
+        margin: 22% 0 0 14%;
+    }
+    .reviews:after {
+        display: none;
+    }
+    .reviews__header {
+        max-width: 95px;
+        max-height: 42px;
+        margin: -8px 0 0 -4px;
+        font-size: 24px;
+    }
+    .reviews__par {
+        width: 102%;
+        overflow: hidden;
+    }
+    .slider__nav--reviews {
+        padding: 260px 0 0 33%;
+    }
+    /*-----------------BLOG POSTS------------------*/
+    .blog {
+        width: 88%;
+        margin: 18.5% 0 0 6%;
+    }
+    .blog__text {
+        height: 24px;
+        overflow: hidden;
+    }
+    .blog__container {
+        margin: 22px 0 -15px 66px;
+    }
+    .blog__btn {
+        margin: 38px 11px 0 0;
+    }
+    /*-----------------BRAND-LOGOS-----------------*/
+    .brand-logo {
+        height: 424px;
+
+    }
+    .brand-logo__list {
+        padding: 50px 0 0 62px;
+        /*display: inline;*/
+    }
+    .brand-logo__item {
+        float: left;
+        margin-right: 20%;
+        margin-bottom: 58px;
+    }
+    .brand-logo__item--3 .brand-logo__link {
+        margin-right: 17px;
+    }
+    .brand-logo__item--3,
+    .brand-logo__item--4 {
+        margin-bottom: 41px;
+    }
+    .brand-logo__item--5 .brand-logo__link {
+        margin-right: -22px;
+        margin-left: -18px;
+        padding-top: 21px;
+    }
+
+
+
+
+    /*------------------FOOTER--------------------*/
+    .footer__сontainer--1,
+    .footer__nav {
+        display: none;
+    }
+    .footer__container--2 {
+        height: 200px;
+    }
+    .footer__nav .menu__item {
+        padding-right: 15px;
+    }
+    .copyright {
+        margin-top: -15px;
+        float: none;
+        text-align: center;
+    }
+}
+
